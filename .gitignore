@@ -1,4 +1,6 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
+#
+*.DS_Store
 
 # compiled output
 /dist/
@@ -24,3 +26,5 @@
 /.node_modules.ember-try/
 /bower.json.ember-try
 /package.json.ember-try
+# tauri
+/src-tauri/target/*
